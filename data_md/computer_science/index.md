@@ -1,2 +1,2 @@
-- [information](/data_md/computer_science/definitions/foundamental/information.md)
-- [list](/data_md/computer_science/definitions/data_object/collection/list.md)
+- [information](./definitions/foundamental/information.md)
+- [list](./definitions/data_object/collection/list.md)

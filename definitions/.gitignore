@@ -1,1 +1,4 @@
+# python env
 .venv
+# python byte-compiled
+**/__pycache__/*
