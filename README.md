@@ -1,38 +1,40 @@
-# Definitions
-`
-Hierarchy (knowledge tree) of precise definitions.
-`
+# DefinIT
 
 ## What?
+
+Hierarchy of precise definitions.
 
 First principles thinking is the act of boiling a process down to the fundamental parts that you know are true and building up from there.
 
 The most fundamental concepts make up the very bottom of the hierarchy of definitions. 
-The ground level (zero level) definitios do not have any references to other definitions. 
+The ground level definitions do not have any references to other definitions. 
 The are purely describe without usage of other concepts. 
-The higher a concept is placed in the hierarchy, the higher level definitions it can reference too. 
+The higher a concept is placed in the hierarchy, the higher level definitions it can reference to. 
 A definition can only reference to another definition from a lower level. 
-Hierarchy of definitions has a structure of a tree.
+Hierarchy of definitions has a structure of a DAG (directed acyclic graph).
 
 ## Why?
 
 The target is to create a knowledge model when one can start learning from a foundamental concepts and climbing to higher level of hierarchy. 
-Picking a single definition, the descendent nodes indicate what should be firstly understand to fully understand the chosen definition.
+Picking a single definition, the descendent nodes indicate what should be firstly understood to fully understand the chosen definition.
 
-Over time, the tree can be updated with more precise and better placed definitions. 
-It is a kind of living systematic review of a specific branch of knowledge.
+Over time, the DAG can be updated with more precise and better placed definitions. 
+It is a kind of living systematic review of a specific field of knowledge.
 
-Keeping the tree structure enforce us to build a definition on top of the more general concepts. 
+Keeping the DAG structure enforce us to build a definition on top of the more general concepts. 
 It makes it clear how specific is the concept we try to define. 
 Going down in the hierarchy we reach a low level definitions that are more general and fundamental. 
-Climping up on the hierarchy tree we learn more specific, high level concepts.
+Climping up on the DAG we learn more specific, high level concepts (see 'stack' dependencies DAG on Figure 1. as an example).
 
-The tree is going to be precise and well arranged knowledge structure. 
+!['list' dependencies DAG](./dag_stack.png)
+Figure 1. 'stack' dependencies DAG.
+
+The DAG is going to be precise and well arranged knowledge structure. 
 It can be used by humans and artificial intelligence systems as well.
 
 ## How?
 
-It is a tedious process to create such knowledge structure since one need have a good undestanding of an abstraction level for each definition. 
+It is a tedious process to create such knowledge structure since one need to have a good undestanding of an abstraction level for each definition. 
 AI language models can automate some part of a work. 
 On the other hand, the creation process allows for a deep understanding of the concepts and their unambiguous definition.
 

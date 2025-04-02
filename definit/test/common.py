@@ -6,4 +6,5 @@ from pathlib import Path
 class _Const:
     PACKAGE_ROOT_DIR: Path = Path(__file__).parent.parent
 
+
 CONST = _Const()
