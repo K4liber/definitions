@@ -1,0 +1,6 @@
+line-length = 120
+unfixable = ["F401"] # Disable fix for unused imports (`F401`).
+
+[lint.isort]
+force-single-line = true
+known-first-party = ["definit"]
