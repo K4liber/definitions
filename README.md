@@ -2,7 +2,7 @@
 
 ## What?
 
-Hierarchy of precise definitions.
+DefinIT is a way of representing knowledge as a hierarchy of precise definitions.
 
 First principles thinking is the act of boiling a process down to the fundamental parts that you know are true and building up from there.
 
@@ -13,16 +13,20 @@ The higher a concept is placed in the hierarchy, the higher level definitions it
 A definition can only reference to another definition from a lower level. 
 Hierarchy of definitions has a structure of a DAG (directed acyclic graph).
 
+When it comes to knowledge representation type, the definitions have procedural 
+representation (explaining the behaviour) and DAGs have structural representation, showing the relations between different definitions. A relation has always the same type: dependency. 
+One need to understand all dependencies of a definition to fully understand the definition.
+
 ## Why?
 
 The target is to create a knowledge model when one can start learning from a foundamental concepts and climbing to higher level of hierarchy. 
 Picking a single definition, the descendent nodes indicate what should be firstly understood to fully understand the chosen definition.
 
 Over time, the DAG can be updated with more precise and better placed definitions. 
-It is a kind of living systematic review of a specific field of knowledge.
+It is a kind of living, systematic knowledge representation of a specific field of knowledge.
 
 Keeping the DAG structure enforce us to build a definition on top of the more general concepts. 
-It makes it clear how specific is the concept we try to define. 
+It makes it clear how specific is the concept of our interest. 
 Going down in the hierarchy we reach a low level definitions that are more general and fundamental. 
 Climping up on the DAG we learn more specific, high level concepts (see 'stack' dependencies DAG on Figure 1. as an example).
 
@@ -61,3 +65,10 @@ The are several issue to be solved before introducing such process:
 - how to reduce spam/garbage PRs (there could be too many of bad quality PRs due to AI tool capabilities)?
 - how does a transaction of knowledge coins corresponds to the knowledge coin mining?
 - Is the mining only triggered on an PR merge or on transactions as well?
+
+## Bibliography
+
+1. "What is Knowledge Representation in Artificial Intelligence?", 
+Sumeet Bansal, https://www.analytixlabs.co.in/blog/what-is-knowledge-representation-in-artificial-intelligence
+
+2. https://www.mkbergman.com/2244/a-common-sense-view-of-knowledge-graphs/
